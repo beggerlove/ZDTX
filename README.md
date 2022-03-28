@@ -5,4 +5,5 @@
 
 ## 部署到腾讯云函数
 
-1. Fork[本项目]()到你仓库并切换分支下载压缩包
+- 1.fork[本仓库](https://github.com/beggerlove/ZDTX)到你的Github并切换分支下载压缩包到你本地解压好备用
+![Fork](https://cdn.jsdelivr.net/gh/beggerlove/ZDTX@master/img/img3.png)
