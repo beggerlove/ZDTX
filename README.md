@@ -13,5 +13,20 @@
 - 3.点击进入[腾讯云控制台](https://console.cloud.tencent.com/scf/list?rid=1&ns=default)
 - 4.点击新建
 ![Fork](https://cdn.jsdelivr.net/gh/beggerlove/ZDTX@serverless/img/3.png)
-- 3. 从头开始-函数名称随意
-    > 这里选择 python3.6
+- 5.从头开始-函数名称随意
+
+> 这里选择 python3.6
+
+![Fork](https://cdn.jsdelivr.net/gh/beggerlove/ZDTX@serverless/img/4.png)
+- 6.改入口函数为 index.main_handler
+![Fork](https://cdn.jsdelivr.net/gh/beggerlove/ZDTX@serverless/img/5.png)
+- 7.改超时时间(如果出现什么 timeout 什么 3 secords 就改，没有也可以不改)
+![Fork](https://cdn.jsdelivr.net/gh/beggerlove/ZDTX@serverless/img/6.png)
+- 8.把异步执行和状态追踪打开
+![Fork](https://cdn.jsdelivr.net/gh/beggerlove/ZDTX@serverless/img/7.png)
+- 9.配置cron语句
+![Fork](https://cdn.jsdelivr.net/gh/beggerlove/ZDTX@serverless/img/8.png)
+- 10.配置配置文件
+![Fork](https://cdn.jsdelivr.net/gh/beggerlove/ZDTX@serverless/img/9.png)
+### 鸣谢
+@
