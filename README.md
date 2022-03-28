@@ -45,7 +45,7 @@
 Github Actions 默认处于关闭状态，大家请手动开启 Actions ，执行一次工作流，验证是否可以正常工作。
 ![Fork](https://cdn.jsdelivr.net/gh/beggerlove/ZDTX@master/img/img4.png)
 
-- 7.如果需要修改每日任务执行的时间，请修改 `.github/workflows/clockIn_new.yml`，在第 8 行左右位置找到下如下配置。
+- 9.如果需要修改每日任务执行的时间，请修改 `.github/workflows/clockIn_new.yml`，在第 8 行左右位置找到下如下配置。
 
 ```yml
   schedule:
