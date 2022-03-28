@@ -29,4 +29,4 @@
 - 10.配置配置文件
 ![Fork](https://cdn.jsdelivr.net/gh/beggerlove/ZDTX@serverless/img/9.png)
 ### 鸣谢
-@
+@[Qutue](https://github.com/Qutue)
