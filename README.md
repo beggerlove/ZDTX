@@ -12,3 +12,6 @@
 ![Fork](https://cdn.jsdelivr.net/gh/beggerlove/ZDTX@serverless/img/2.png)
 - 3.点击进入[腾讯云控制台](https://console.cloud.tencent.com/scf/list?rid=1&ns=default)
 - 4.点击新建
+![Fork](https://cdn.jsdelivr.net/gh/beggerlove/ZDTX@serverless/img/3.png)
+- 3. 从头开始-函数名称随意
+    > 这里选择 python3.6
