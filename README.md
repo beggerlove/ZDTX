@@ -19,6 +19,7 @@
 - 3.打开settings，找到secrets
 ![Fork](https://cdn.jsdelivr.net/gh/beggerlove/ZDTX@master/img/img2.png)
 ![Fork](https://cdn.jsdelivr.net/gh/beggerlove/ZDTX@master/img/img1.png)
+
 -4.新建secret如下
 | secret_iD   | value                   |
 | ----------- | ----------------------- |
