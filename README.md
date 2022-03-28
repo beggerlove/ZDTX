@@ -3,7 +3,7 @@
 1. 每日健康打卡自动打卡
 2. 晚上定位签到(经纬度要精确到10位)
 3. 推送方式支持PushPlus(使用其它推送方式自己更改即可)
-4. 支持[Github Actions](https://github.com/beggerlove/ZDTX/tree/main/) & [腾讯云函数](https://github.com/beggerlove/ZDTX/tree/serverless)
+4. 支持[Github Actions](https://github.com/beggerlove/ZDTX) & [腾讯云函数](https://github.com/beggerlove/ZDTX/tree/serverless)
 
 ## 注意事项
 - 这里所需要的抓包工具(证书安装视频也包括)还有低版本的的指点天下我打包放在[百度云盘](https://pan.baidu.com/s/1ZhgkBPuQL_TplsMtFLWs1A) 提取码是:q8v9
