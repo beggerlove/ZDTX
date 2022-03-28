@@ -15,8 +15,9 @@
 - 1.首先保证你有一个[Github账号](https://github.com/)
 
 - 2.fork[本仓库](https://github.com/beggerlove/ZDTX)到你的Github
-
+https://cdn.jsdelivr.net/gh/beggerlove/ZDTX@master/img/img1.png
 - 3.打开settings，找到secrets，新建secret如下
+![Fork](https://cdn.jsdelivr.net/gh/beggerlove/ZDTX@master/img/img1.png)
 
 | secret_iD   | value                   |
 | ----------- | ----------------------- |
