@@ -6,6 +6,7 @@
 4. 支持[Github Actions](https://github.com/beggerlove/ZDTX) & [腾讯云函数](https://github.com/beggerlove/ZDTX/tree/serverless)
 
 ## 注意事项
+- 一定看清楚脚本里的注释再运行，确保填写完各种变量后再运行
 - 这里所需要的抓包工具(证书安装视频也包括)还有低版本的的指点天下我打包放在[百度云盘](https://pan.baidu.com/s/1ZhgkBPuQL_TplsMtFLWs1A) 提取码是:q8v9
 - 利用Github运行的时候时间不精确，如果学校有晚签推荐使用[腾讯云函数](https://github.com/beggerlove/ZDTX/tree/serverless/)
 - 也可以利用青龙运行，直接下载云函数分支中的py脚本修改脚本里对应的变量即可
