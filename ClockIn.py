@@ -77,7 +77,7 @@ def login():
 
 # 获取打卡信息模板ID
 def get_templateID(token):
-    url = 'http://zzcsjr.zhidiantianxia.cn/api/study/health/mobile/health/permission'
+    url = 'http://(学校登录域名).zhidiantianxia.cn/api/study/health/mobile/health/permission'
     header = {
         'axy-phone': phone,
         'axy-token': token,
@@ -100,7 +100,7 @@ def get_templateID(token):
         
 # 获取模板
 def get_template(token, template_id):
-    url = 'http://zzcsjr.zhidiantianxia.cn/api/study/health/mobile/health/template?id={}'.format(template_id)
+    url = 'http://(学校登录域名).zhidiantianxia.cn/api/study/health/mobile/health/template?id={}'.format(template_id)
     header = {
         'axy-phone': phone,
         'axy-token': token,
@@ -139,7 +139,7 @@ def random_temperature():
 
 # 每日健康打卡模块
 def sign_in(token):
-    url = 'http://zzcsjr.zhidiantianxia.cn/api/study/health/apply'
+    url = 'http://(学校登录域名).zhidiantianxia.cn/api/study/health/apply'
     header = {
         'axy-phone': phone,
         'axy-token': token,
@@ -203,7 +203,7 @@ def sign_in(token):
 
 # 获取每日宿舍签到的signInId模块
 def get_signInId(token):
-    url = 'http://zzcsjr.zhidiantianxia.cn/applets/signin/my'
+    url = 'http://(学校登录域名).zhidiantianxia.cn/applets/signin/my'
     header = {
         'axy-phone': phone,
         'axy-token': token,
@@ -225,7 +225,7 @@ def get_signInId(token):
 
 # 22点宿舍签到模块
 def sign_in_evening(token):
-    url = 'http://zzcsjr.zhidiantianxia.cn/applets/signin/sign'
+    url = 'http://(学校登录域名).zhidiantianxia.cn/applets/signin/sign'
     header = {
         'axy-phone': phone,
         'axy-token': token,
@@ -257,7 +257,7 @@ if __name__ == "__main__":
     time.sleep(3)
     now_H = int(time.strftime("%H"))
     if flag == 1:
-        if 14 <= now_H <= 15:  # 世界协调时间
+        if 14 <= now_H <= 15:  # 晚签开启时间
             sign_in_evening(token)
         else:
             sign_in(token)
