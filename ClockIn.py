@@ -150,7 +150,7 @@ def sign_in(token):
         'Accept-Encoding': 'gzip',
         'Content-Length': '695'
     }
-
+## 如果签到模板发生变化，自己抓包更换即可
     content = {
         "location": {"address": address, "code": "1", "lng": lng, "lat": lat},
         "temperature": random_temperature(),
