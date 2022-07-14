@@ -3,6 +3,9 @@
 
 - 功能与[Github运行功能一致](https://github.com/beggerlove/ZDTX/tree/master)
 
+## 注意事项
+- 一定要修改脚本内相应的变量，还有学校的登录域名，否则无法运行
+
 ## 部署到腾讯云函数
 
 - 1.fork[本仓库](https://github.com/beggerlove/ZDTX)
