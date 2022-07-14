@@ -8,6 +8,8 @@
 ## 注意事项
 - 这里所需要的抓包工具(证书安装视频也包括)还有低版本的的指点天下我打包放在[百度云盘](https://pan.baidu.com/s/1ZhgkBPuQL_TplsMtFLWs1A) 提取码是:q8v9
 - 利用Github运行的时候时间不精确，如果学校有晚签推荐使用[腾讯云函数](https://github.com/beggerlove/ZDTX/tree/serverless/)
+- 也可以利用青龙运行，直接下载云函数分支中的py脚本修改脚本里对应的变量即可
+- 运行之前一定要修改自己本校的登录域名在脚本内相应的地方修改
 
 > 本项目Fork自[@Qutue](https://github.com/Qutue)
 
